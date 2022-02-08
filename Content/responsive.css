@@ -1,0 +1,215 @@
+.d__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  
+}
+
+ul {
+    padding: 0;
+}
+.navbar-toggle {
+    border: 1px solid #155c61;
+}
+.navbar-toggle .icon-bar {
+    background: #155c61;
+}
+.logo-2 {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+    width: 100%;
+    
+}
+.line {
+    -webkit-border-start: 2px solid #2393a8;
+            border-inline-start: 2px solid #2393a8;
+    margin: 10px;
+}
+.d_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.userGuideIcon {
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.lang-holder {
+    position: relative;
+    width: 30px;
+}
+html[lang=ar] .HomeUl li span {
+    margin-right:5px;
+    margin-left: 0;
+}
+.HomeBlock ul li i {
+    margin-top: 3px;
+}
+@media screen and (max-width:991px) {
+    .navbar-nav {
+        margin:0;
+    }
+    .flex_row {
+          -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important ;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    }
+    .TopMenu {
+        padding-right: 0;
+    }
+    .TopMenu a.top-a {
+        margin-top: 0;
+        padding: 9px !important;
+    }
+    ul.nav {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .navbar-toggle {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .TopMenu .navbar-nav {
+    text-align: initial;
+}
+/*.logo {
+    margin: 0;
+    margin-left:40px;
+}*/
+.logo img, .nhrsp-logo{
+    width: 100%;
+}
+.HomeBlock ul {
+    padding: 0;
+}
+.form-control {
+    max-width: 100%;
+    margin: 10px 0;
+}
+#btnSearch {
+    width: 100%;
+    padding: 9px !important;
+    text-align: center;
+}
+.line {
+    display: none;
+}
+.userGuideIcon {
+    width:50px;
+    height: 50px;
+    line-height: 50px;
+}
+input[type=date], .hasDatepicker {
+    direction: inherit;
+    text-indent: 24px;
+}
+button[type="submit"] {
+    width: 100%;
+    text-align: center;
+    padding: 9px !important;
+}
+label {
+    margin-top: 9px;
+}
+.navbar-header .italic  {
+  -webkit-transform: skewX(
+30deg
+) !important;
+  -ms-transform: skewX(0) !important;
+  transform: skewX(
+0
+) !important;
+}
+.navbar-header .italic  img {
+    width: 100% !important;
+  
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group {
+    padding: 0;
+}
+.navbar a.italic {
+    /* width: 100%; */
+    overflow: hidden;
+    padding: 15px 20px;
+}
+.navbar-header {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.d_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+.navbar-toggle {display: block;}
+.navbar-collapse.collapse {
+    display: none !important;
+}
+.navbar-header {
+    float: none;
+}
+.line {
+    display: none;
+}
+}
+
+.vision_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: calc(100%-90%);
+    vertical-align: bottom;
+    /*height: 100%; */
+}
+
+.dd_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bg_white {
+    background-color: #fff;
+}
+
+.between {
+    width: 50%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.golden_support {
+    background: #3199a0;
+    padding: 0 6px;
+    margin: 30px 0;
+    color: #fff;
+}

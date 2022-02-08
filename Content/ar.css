@@ -1,0 +1,138 @@
+﻿.lang-holder { left: auto; right: 0; padding: 5px 0px 10px 4px; border-bottom-right-radius: 0px; border-bottom-left-radius: 10px; }
+
+
+.SearchAndMenu { float: right !important; }
+
+.SearchAndMenu button[type=submit] { right: auto; left: 2px; }
+
+.SideMenu { left: auto; right: 0; border-bottom-right-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 25px; border-top-left-radius: 25px; }
+
+.BottomBlock .SingleBlock div:last-child { margin-right: 18px; }
+
+
+/*
+header:after { transform: skewY(-2deg); -moz-transform: skewY(-2deg); -webkit-transform: skewY(-2deg); top: 10px; }
+*/
+/*main.MainContent { left: auto; right: 13%; }*/
+
+
+.PageContentTitle { padding: 10px 10px 10px 30px; border-bottom-right-radius: 0; border-bottom-left-radius: 8px; left: auto; right: 0; }
+
+
+.dl-horizontal dt { white-space: normal; font-size: 12px; font-weight: 700; }
+
+
+.form-horizontal .control-label { text-align: right; font-weight: 700; }
+
+.dropdown-content { /*border-radius: 15px 0 0 15px; left: 0; right: 100%;*/
+
+right: 0;
+    left: 100%;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: right;
+}
+
+
+.ui-switcher[aria-checked=true]:before {
+    content: 'ON';
+    right: 21px;
+}
+
+.welcome h4 i {
+    border-right: none !important;
+    border-left: 1px solid #999999;
+    padding-right:0 !important;
+    padding-left: 6px;
+}
+
+
+dd .form-control {
+    float: right;
+}
+
+
+.ui-switcher[aria-checked=false]:before {
+    right: 6px ;
+}
+
+.checkbox {
+    float: right !important;
+    width: 33% !important;
+    height: 40px;
+}
+
+
+.form-group .button { float:right !important; }
+
+
+
+.HomeUl li i { float:right; }
+
+    .dropdown-content a { text-align:right; }
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] { float: right; }
+
+.welcome h4 i { border-right:1px solid #999999; padding-right:6px;
+}
+.welcome h4 {
+    color: #666666;
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: 400;
+    text-align:left;
+   
+}
+
+
+
+
+.v2030  { float:left !important; }
+
+
+.RejectReasonDiv .ui-switcher:first-child:before { content: 'Rejected' !important; }
+.RejectReasonDiv .ui-switcher:nth-child(even):before { content: 'Rejected' !important; }
+
+.ApprovedCheck .ui-switcher[aria-checked=false]:before { content: 'Approved'; }
+
+.ApprovedCheck .ui-switcher[aria-checked=true]:before { content: 'Approved'; }
+
+.NewCheck .ui-switcher[aria-checked=false]:before { content: 'New'; }
+
+.NewCheck .ui-switcher[aria-checked=true]:before { content: 'New'; }
+
+
+.RejectCheck .ui-switcher[aria-checked=false]:before { content: 'Rejected'; }
+
+
+    .RejectCheck .ui-switcher[aria-checked=true]:before { content: 'Rejected'; }
+
+.AllowAccess .ui-switcher[aria-checked=false]:before { content: 'Approved'; }
+
+.AllowAccess .ui-switcher[aria-checked=true]:before { content: 'Approved'; }
+
+.RejectAccess .ui-switcher[aria-checked=false]:before { content: 'Rejected'; }
+
+.RejectAccess .ui-switcher[aria-checked=true]:before { content: 'Rejected'; }
+
+
+.Resent .ui-switcher[aria-checked=false]:before { content: 'Resubmitted'; white-space:nowrap }
+
+.Resent .ui-switcher[aria-checked=true]:before { content: 'Resubmitted'; white-space:nowrap }
+
+
+
+.TopMenu {
+    padding-left: initial !important;
+    padding-right:130px;
+}
+
+
+
+.login-status-div {
+    position: absolute;
+    float: right;
+    bottom: -60px;
+    right: 0px;
+}

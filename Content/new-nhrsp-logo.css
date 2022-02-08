@@ -1,0 +1,184 @@
+.userGuideIcon {
+    position: fixed;
+    z-index: 99999999;
+    bottom: 65px;
+    right: 20px;
+    border-radius: 100%;
+    background: #3199a0;
+    color: #fdfdfd;
+    border: 5px double #084044;
+    padding: 15px;
+}
+
+    .userGuideIcon i {
+        font-size: 2em;
+    }
+
+    .userGuideIcon:hover, .userGuideIcon:active, .userGuideIcon:focus, .userGuideIcon:visited {
+        color: #fdfdfd;
+        bottom: 70px;
+    }
+
+
+
+.userGuideIcon {
+    position: fixed;
+    z-index: 99999999;
+    bottom: 65px;
+    right: 20px;
+    border-radius: 100%;
+    background: #3199a0;
+    color: #fdfdfd;
+    border: 5px double #084044;
+    padding: 15px;
+}
+
+    .userGuideIcon i {
+        font-size: 2em;
+    }
+
+    .userGuideIcon:hover, .userGuideIcon:active, .userGuideIcon:focus, .userGuideIcon:visited {
+        color: #fdfdfd;
+        bottom: 70px;
+    }
+
+
+header {
+    z-index: 1;
+    background-color: #f9fffd;
+    height: 16%;
+    position: relative;
+}
+
+
+.LogOff {
+    padding: 5px;
+    border-radius: 2px;
+    /*color: #ffffff; */
+    font-size: 12px;
+    width: 100%;
+    background: #155c61;
+    text-align: center;
+}
+
+    .LogOff a {
+        color: #ffffff;
+    }
+
+
+.TopMenu {
+   /* padding-left: 130px;*/
+  /* margin-bottom:50px;*/
+}
+
+    .TopMenu a.top-a {
+        margin-top: 150px;
+        color: #155c61;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding: 5px 9px !important;
+        border-radius: 5px;
+    }
+
+
+    .Top-LeftMenu a.top-a {
+       
+        color: #155c61;
+        font-size: 14px;
+        letter-spacing: .5px;
+        /*padding: 5px 9px !important;*/
+        
+    }
+
+.nhrsp-logo {
+   /* width: 250px;*/
+    margin: 0 auto;
+    top: 20px;
+    padding-top: 20px;
+}
+
+.SearchAndMenu {
+    text-align: right;
+    top: 0px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+header:after {
+    /* transform-origin: right bottom; */
+    -moz-transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+    /* transform: skewY(2deg); */
+    -moz-transform: skewY(2deg);
+    -webkit-transform: skewY(0deg);
+    bottom: -50px;
+}
+
+
+.v2030 > img {
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+.logo {
+    top: -50px;
+    margin-left: 10px;
+    zoom: 0.7;
+}
+
+html[dir=rtl] .logo {
+    margin-right: 10px;
+    
+}
+
+.chrs {
+    color: #0071bc;
+    top: 10px;
+    font-weight: bold;
+}
+
+ul.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+}
+
+a.login-status {
+    font-size: 14px;
+    font-family: 'Varela Round', 'Tajawal';
+    color: #aeaaae;
+    float:left;
+    margin-top:20px;
+}
+
+
+.login-status-div {
+    padding-top:20px;
+    position: absolute;
+    float: left;
+    bottom: -60px;
+    left: 0px;
+}
+
+
+@media (max-width: 767px) {
+    header.container-fluid div.container-fluid.dd_flex {
+        flex-direction: column;
+    }
+
+    header.container-fluid div.container-fluid.dd_flex .logo {
+        top: auto;
+        margin: auto;
+    }
+}
